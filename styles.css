@@ -1,0 +1,227 @@
+/* Fonte retrô */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #111;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  border-bottom: 2px solid #fff;
+  gap: 0.25rem; 
+  padding: 0.25rem 0;
+}
+
+
+nav a,
+nav button {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2rem 0.3rem;
+  font-size: 10px;
+  display: inline-block;
+  transition: 0.3s;
+  background: none;
+  border: 1px solid #fff; 
+  font: inherit;       
+  cursor: pointer;
+}
+
+nav a:hover,
+nav button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+
+nav button:focus,
+nav a:focus {
+  outline: 2px dashed #fff;
+  outline-offset: 3px;
+}
+
+
+section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom: 1px solid #444;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    transition: 0.3s;
+}
+
+.btn-top:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+}
+
+#tweez {
+
+    height: 300px;
+    align-items: center;
+    padding-inline: inherit;
+}
+
+#welcome {
+    height: 600px;
+    position: relative;
+    right: 100px;
+}
+
+#prototipo {
+    margin-top: 20px;
+    position: relative;
+    right: 35px;
+}
+
+
+#jogos {
+    height: 450px;
+    margin-top: 20px;
+    position: relative;
+    right: -65px;
+}
+
+
+#ferramentas {
+    height: 350px;
+    margin-top: 20px;
+    
+}
+
+
+#teste a {
+   
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2rem 0.3rem;
+  font-size: 10px;
+  display: inline-block;
+  transition: 0.3s;
+  background: none;
+  border: 1px solid #fff; 
+  font: inherit;       
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  left: 330px;
+
+}
+
+.confetti-btn {
+    font: inherit;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    left: 315px;
+    top: 20px;
+}
+
+.confetti-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.conteudo {
+    display: none;
+}
+
+.conteudo.ativo {
+    display: block;
+}
+
+
+@font-face {
+font-family: 'birdy'; 
+src: url('fontes/birdy.ttf') format('truetype'); }
+@font-face {
+font-family: 'digivolve'; 
+src: url('fontes/digivolve.otf') format('truetype'); }
+@font-face {
+font-family: 'pixel'; 
+src: url('fontes/pixel.ttf') format('truetype'); }
+@font-face {
+font-family: 'gameplay'; 
+src: url('fontes/gameplay.ttf') format('truetype'); }
+@font-face {
+font-family: 'retro'; 
+src: url('fontes/retro.ttf') format('truetype'); }
